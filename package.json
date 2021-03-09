@@ -1,0 +1,23 @@
+{
+  "name": "backend-pizzaria",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/fagnerzulin/backend-pizzaria.git",
+  "author": "Fagner Zulin <fagnerzulin11@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  },
+  "type": "module"
+}
