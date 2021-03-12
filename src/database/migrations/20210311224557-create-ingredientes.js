@@ -2,7 +2,7 @@
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    return await queryInterface.createTable("pizzas", {
+    await queryInterface.createTable("ingredientes", {
       id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
@@ -10,14 +10,6 @@ module.exports = {
         alloNull: false,
       },
       nome: {
-        type: Sequelize.STRING,
-        alloNull: false,
-      },
-      preco: {
-        type: Sequelize.INTEGER,
-        alloNull: false,
-      },
-      nome_imagem: {
         type: Sequelize.STRING,
         alloNull: false,
       },
@@ -33,6 +25,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    return await queryInterface.dropTable("pizzas");
+    await queryInterface.dropTable("ingredientes");
   },
 };
