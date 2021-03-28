@@ -4,6 +4,7 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 const Pizza = require("../model/Pizzas");
+const Ingrediente = require("../model/Ingredientes");
 
 const connection = new Sequelize(process.env.DB_CONNECTION_STRING, {
   dialect: "postgres",
@@ -23,4 +24,8 @@ const connection = new Sequelize(process.env.DB_CONNECTION_STRING, {
 })();
 
 Pizza.init(connection);
+Ingrediente.init(connection);
+
+Pizza.associate(connection.models);
+Ingrediente.associate(connection.models);
 module.exports = connection;

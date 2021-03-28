@@ -1,13 +1,10 @@
 const { Model, DataTypes } = require("sequelize");
 
-class Pizza extends Model {
+class Ingrediente extends Model {
   static init(sequelize) {
     super.init(
       {
         nome: DataTypes.STRING,
-        preco: DataTypes.INTEGER,
-        nome_imagem: DataTypes.STRING,
-        tipo: DataTypes.STRING,
       },
       {
         sequelize,
@@ -15,11 +12,11 @@ class Pizza extends Model {
     );
   }
   static associate(models) {
-    this.belongsToMany(models.Ingrediente, {
+    this.belongsToMany(models.Pizza, {
       through: "pizzas-ingredientes",
-      foreignKey: "pizza_id",
-      as: "ingredientes",
+      foreignKey: "ingrediente_id",
+      as: "pizzas",
     });
   }
 }
-module.exports = Pizza;
+module.exports = Ingrediente;
