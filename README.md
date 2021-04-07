@@ -6,10 +6,9 @@
 
 ---
 
-Projeto é um quiz, feito em ReactJS e TypeScript. Busca as trivias da API "Open Trivia DataBase" (link na sessão ferramentas). O deploy foi feito na plataforma da Vercel (link também a sessão ferramentas).
-Foi criado a partir do vídeo-tutorial "React / Typescript Tutorial - Build a Quiz App" do canal "FreeCodeCamp" (link na sessão Material Base).
+Projeto é o backend do **[projeto-pizzaria](https://github.com/fagnerzulin/projeto-pizzaria)** . Fora feito como desafio passado pelo meu antigo mentor pelo Programa Desenvolve do Grupo Boticário (Para saber mais do programa **[Click Aqui](https://desenvolve.grupoboticario.com.br/)** ). A lista de tecnologias utilizadas estão na seção a seguir.
 
-Para ver esse projeto funcionando: **[Click Aqui](https://quiz-react-app.vercel.app/)**
+Para acessar o endpoint desse projeto: **[Click Aqui](https://backend-pizzaria.herokuapp.com/pizzas)**
 
 ---
 
@@ -19,13 +18,13 @@ Para ver esse projeto funcionando: **[Click Aqui](https://quiz-react-app.vercel.
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- **[React](https://reactjs.org/)**
-- **[Styled Components](https://github.com/styled-components/styled-components)**
-- **[TypeScript](https://www.typescriptlang.org/)**
-- **[API Open Trivia DataBase](https://opentdb.com/api_config.php)**
-- **[Vercel](https://vercel.com/)**
+- **[NodeJS](https://nodejs.org/en/)**
+- **[Express](https://expressjs.com/pt-br/)**
+- **[Sequelize](https://sequelize.org/)**
+- **[ElephantSQL](https://www.elephantsql.com/)**
+- **[Heroku](https://www.heroku.com/)**
 
-> Veja o arquivo [package.json](https://github.com/fagnerzulin/quiz-react-app/blob/main/package.json)
+> Veja o arquivo [package.json](https://github.com/fagnerzulin/backend-pizzaria/blob/main/package.json)
 
 ---
 
@@ -33,6 +32,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-Para acessar o vídeo que ensina a desenvolver esse projeto acesse: **[React / Typescript Tutorial - Build a Quiz App](https://www.youtube.com/watch?v=F2JCjVSZlG0)**. Para conhecer a plataforma de ensino gratuito acesse **[FreeCodeCamp](https://www.freecodecamp.org/learn/)**
+Além das documentações, utilizei o video a seguir como consulta: **[SQL no Node.js com Sequelize](https://youtu.be/Fbu7z5dXcRs)**.
 
 ---
