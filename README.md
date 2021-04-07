@@ -6,7 +6,7 @@
 
 ---
 
-Projeto é o backend do **[projeto-pizzaria](https://github.com/fagnerzulin/projeto-pizzaria)** . Fora feito como desafio passado pelo meu antigo mentor pelo Programa Desenvolve do Grupo Boticário (Para saber mais do programa **[Click Aqui](https://desenvolve.grupoboticario.com.br/)** ). A lista de tecnologias utilizadas estão na seção a seguir.
+Esse projeto é o backend do **[projeto-pizzaria](https://github.com/fagnerzulin/projeto-pizzaria)**. Fora feito como desafio passado no âmbito das mentorias do Programa Desenvolve do Grupo Boticário (para saber mais do programa **[Click Aqui](https://desenvolve.grupoboticario.com.br/)**). A lista de tecnologias utilizadas estão na seção a seguir.
 
 Para acessar o endpoint desse projeto: **[Click Aqui](https://backend-pizzaria.herokuapp.com/pizzas)**
 
